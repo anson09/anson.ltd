@@ -1,13 +1,11 @@
 # Css
 
-## selector
-
-- 优先级计算方式
-- 内联样式还是!important 优先级高
-
-## layout
-
+- 优先级计算方式 (follow up 内联样式还是!important 优先级高)
 - position 属性几种定位方式分别相对什么定位
+- 简述 BFC 和其应用
+- 简述 Stacking Context 和其应用
+- 简述 Compositing Layer 和其应用
+
 - 画出以下颜色块和数字的排列
 
 ```html
@@ -36,15 +34,11 @@
 </style>
 ```
 
-## engine
-
 - css 加载会阻塞 dom 的解析、渲染（2 steps）吗，为什么
 - css 加载会阻塞 js（none,defer,async）的加载、执行（2 steps）吗，为什么
 - DOMContentLoaded 和 load 事件的触发时机
 
 # Js
-
-## basic
 
 - 下面代码有哪些问题
 
@@ -120,15 +114,13 @@ new new Foo().getName();
 
 - encodeURI 和 EncodeURIComponent 区别
 
-## cross-domain
+# Cross Domain
 
 - CORS 的流程是怎样的
 - 服务端收到一个请求，但拿不到 cookie，可能是哪些原因
 - 两个独立打开的不同源 tab 之间通讯的纯前端方案
 
 # Nodejs
-
-## Eventloop
 
 - 哪种更快，为什么
 
