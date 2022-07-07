@@ -1,6 +1,9 @@
 # Css
 
-- 优先级计算方式 (follow up 内联样式还是!important 优先级高)
+- 优先级计算方式 
+  - _follow up_
+  - 内联样式还是!important 优先级高
+  - 引入 Cascade Layer 后呢
 - position 属性几种定位方式分别相对什么定位
 - 简述 BFC 和其应用
 - 简述 Stacking Context 和其应用
