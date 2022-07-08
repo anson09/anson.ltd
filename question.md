@@ -152,6 +152,5 @@ foo();
 # Build
 
 - 聊聊 js 和 css 的浏览器向下兼容方案
-- vue 文件在构建过程中都发生了什么
-- scoped css 是怎么实现的
+- vue scoped css 是怎么实现的
 - spa 架构下有哪些方法优化首屏速度
