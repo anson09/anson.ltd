@@ -113,7 +113,7 @@ new Foo().getName();
 new new Foo().getName();
 ```
 
-- encodeURI 和 EncodeURIComponent 区别
+- encodeURI 和 encodeURIComponent 区别
 
 # Browser
 
