@@ -6,6 +6,8 @@
   - 引入 Cascade Layer 后呢
 - position 属性几种定位方式分别相对什么定位
 - 简述 BFC 和其应用
+  - _follow up_
+  - 简述 Margin Collapse 逻辑
 - 简述 Stacking Context 和其应用
 - 简述 Compositing Layer 和其应用
 - 画出以下颜色块和数字的排列
@@ -142,11 +144,10 @@ function foo() {
 foo();
 ```
 
-- nextTickQueue 和 microTaskQueue 中的递归调用会 block 程序吗
-
 # Network
 
 - 浏览器中 https 加解密流程
+  - _follow up_ 中间人攻击流程
 - keep alive 和 http2 中多路复用的区别
 
 # Build
