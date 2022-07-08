@@ -8,7 +8,6 @@
 - 简述 BFC 和其应用
 - 简述 Stacking Context 和其应用
 - 简述 Compositing Layer 和其应用
-
 - 画出以下颜色块和数字的排列
 
 ```html
@@ -39,7 +38,6 @@
 
 - css 加载会阻塞 dom 的解析、渲染（2 steps）吗，为什么
 - css 加载会阻塞 js（none,defer,async）的加载、执行（2 steps）吗，为什么
-- DOMContentLoaded 和 load 事件的触发时机
 
 # Js
 
@@ -117,8 +115,9 @@ new new Foo().getName();
 
 - encodeURI 和 EncodeURIComponent 区别
 
-# Cross Domain
+# Browser
 
+- DOMContentLoaded 和 load 事件的触发时机
 - CORS 的流程是怎样的
 - 服务端收到一个请求，但拿不到 cookie，可能是哪些原因
 - 两个独立打开的不同源 tab 之间通讯的纯前端方案
