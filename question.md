@@ -145,7 +145,8 @@ foo();
 # Network
 
 - 中间人攻击流程
-  - _follow up_ 客户端/服务端怎么抓包
+  - _follow up_
+  - 客户端/服务端怎么抓包
 - keep alive 和 http2 中多路复用的区别
 
 # Build
