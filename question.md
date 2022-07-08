@@ -119,8 +119,6 @@ new new Foo().getName();
 
 # Browser
 
-- DOMContentLoaded 和 load 事件的触发时机
-- CORS 的流程是怎样的
 - 服务端收到一个请求，但拿不到 cookie，可能是哪些原因
 - 两个独立打开的不同源 tab 之间通讯的纯前端方案
 
@@ -146,8 +144,8 @@ foo();
 
 # Network
 
-- 浏览器中 https 加解密流程
-  - _follow up_ 中间人攻击流程
+- 中间人攻击流程
+  - _follow up_ 客户端/服务端怎么抓包
 - keep alive 和 http2 中多路复用的区别
 
 # Build
