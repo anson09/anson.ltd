@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url("../assets/fonts/Minecraft.woff") format("woff");
+}
+
+body {
+  display: grid;
+  place-content: center;
+  place-items: end;
+  gap: 32px;
+  height: 100vh;
+  background-image: url("../assets/images/Baraboo Forest.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Minecraft";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: hsl(88deg 50% 53%);
+  transition: transform 0.2s ease-in-out;
+}
+
+a:focus,
+a:hover {
+  transform: scale(1.05);
+}
+
+section {
+  font-size: 24px;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 32px;
+}
