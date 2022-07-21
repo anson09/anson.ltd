@@ -9,6 +9,7 @@ body {
   place-items: end;
   gap: 32px;
   height: 100vh;
+  height: 100svh;
   background-image: url("../assets/images/Baraboo Forest.webp");
   background-repeat: no-repeat;
   background-size: cover;
