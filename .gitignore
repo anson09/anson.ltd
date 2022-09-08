@@ -1,1 +1,7 @@
 .DS_Store
+vendor/
+.bundle/
+_site/
+~JEKYLL_GITHUB_TOKEN
+.jekyll-metadata
+.vscode

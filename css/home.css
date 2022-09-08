@@ -35,6 +35,10 @@ section {
   gap: 32px;
 }
 
+p {
+  height: 72px;
+}
+
 :root {
   --bg: white;
   --text: hsl(4deg 35% 43%);
