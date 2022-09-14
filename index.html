@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -29,13 +32,20 @@
   </head>
 
   <body>
-    <img src="./assets/images/logo-256.png" alt="avatar" width="64" />
-    <section>
-      <a href="/about">/ About</a>
-      <a href="https://blog.anson.ltd">/ Blog</a>
-      <a href="https://github.com/anson09">/ Github</a>
-      <a href="/resume" hidden>/ Resume</a>
-    </section>
-    <p></p>
+    <header></header>
+    <main>
+      <img src="./assets/images/logo-256.png" alt="avatar" width="64" />
+      <section>
+        <a href="/about">/ About</a>
+        <a href="https://blog.anson.ltd">/ Blog</a>
+        <a href="https://github.com/anson09">/ Github</a>
+        <a href="/resume" hidden>/ Resume</a>
+      </section>
+      <p></p>
+    </main>
+    <footer>
+      © {{ site.time | date: '%Y' }} - made with <span class="love">♥︎</span> by
+      anson
+    </footer>
   </body>
 </html>

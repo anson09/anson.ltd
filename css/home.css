@@ -3,17 +3,34 @@
   src: url("../assets/fonts/Minecraft.woff") format("woff");
 }
 
+:root {
+  --bg: white;
+  --text: hsl(4deg 35% 43%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: hsl(221deg 39% 11%);
+    --text: hsl(0deg 20% 80%);
+  }
+}
+
 body {
   background-color: var(--bg);
-  display: grid;
-  place-content: center;
-  place-items: end;
-  gap: 32px;
-  height: 100vh;
-  height: 100svh;
   font-family: "Minecraft";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  height: 100svh;
+  display: grid;
+  grid-template-rows: 0 1fr 60px;
+  place-items: center;
+}
+
+main {
+  display: grid;
+  place-items: end;
+  gap: 32px;
 }
 
 a {
@@ -36,27 +53,24 @@ section {
 }
 
 p {
-  height: 72px;
+  height: 60px;
 }
 
-:root {
-  --bg: white;
-  --text: hsl(4deg 35% 43%);
+.love {
+  cursor: pointer;
+  transition: color 0.8s ease-in-out 0.2s;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: hsl(221deg 39% 11%);
-    --text: hsl(0deg 20% 80%);
-  }
+.love:hover {
+  color: rgb(239 68 68);
 }
 
 @media (max-width: 480px) {
-  body {
+  main {
     place-items: start;
   }
 
-  body img {
+  main img {
     position: relative;
     left: -12px;
   }
@@ -64,5 +78,9 @@ p {
   section {
     font-size: 20px;
     grid-auto-flow: row;
+  }
+
+  footer {
+    font-size: 12px;
   }
 }
