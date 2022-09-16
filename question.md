@@ -1,3 +1,7 @@
+---
+noindex: true
+---
+
 # Question
 
 ## Css
@@ -31,9 +35,11 @@
     background-color: red;
   }
   .div2 {
+    color: yellow;
     background-color: green;
   }
   .div3 {
+    color: white;
     float: left;
     background-color: blue;
   }

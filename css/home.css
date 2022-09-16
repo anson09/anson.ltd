@@ -8,10 +8,25 @@
   --text: hsl(4deg 35% 43%);
 }
 
+@media (prefers-color-scheme: light) {
+  .icon-dark {
+    display: none;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: hsl(221deg 39% 11%);
     --text: hsl(0deg 20% 80%);
+  }
+
+  .icon-light {
+    display: none;
+  }
+
+  header,
+  footer {
+    filter: invert(100%);
   }
 }
 
@@ -23,8 +38,12 @@ body {
   height: 100vh;
   height: 100svh;
   display: grid;
-  grid-template-rows: 0 1fr 60px;
+  grid-template-rows: 60px 1fr 60px;
   place-items: center;
+}
+
+header {
+  place-self: end;
 }
 
 main {
@@ -52,8 +71,14 @@ section {
   gap: 32px;
 }
 
-p {
+.holder {
   height: 60px;
+}
+
+.icon-light,
+.icon-dark {
+  width: 36px;
+  margin-right: 24px;
 }
 
 .love {

@@ -1,3 +1,7 @@
+---
+paper: true
+---
+
 # About me
 
 🥳 Hi, I'm Anson~
