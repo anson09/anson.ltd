@@ -25,7 +25,8 @@
   }
 
   header,
-  footer {
+  footer,
+  footer a {
     filter: invert(100%);
   }
 }
