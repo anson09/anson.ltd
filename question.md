@@ -167,3 +167,8 @@ foo();
 - vue scoped css 是怎么实现的
 - spa 架构下有哪些方法优化首屏速度
 - 副作用优化方案
+
+## ViewPoint
+
+- 投资/不投资 币圈的理由
+- 对 serverless 低代码 元宇宙 等新技术名词怎么看

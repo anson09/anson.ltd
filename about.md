@@ -2,38 +2,38 @@
 paper: true
 ---
 
-# About me
+# About Me
 
-🥳 Hi, I'm Anson~
+🥳 Hi, I'm Anson, there is a quick list to get what I like and my time spending.
 
 ## Work Stuff
 
-🧙🏼 I'm in charge of making a [website](https://www.ricequant.com) for finance users and I am proud of it
+🧙🏼 I'm in charge of making a [website](https://www.ricequant.com) for financial people and I am proud of it
 
-🧪 There is my code playground link [`codepen`](https://codepen.io/anson09/pens/public) [`stackblitz`](https://stackblitz.com/@anson09)
+🧪 There is my code playground link [codepen](https://codepen.io/anson09/pens/public) [stackblitz](https://stackblitz.com/@anson09)
 
-💪🏼 My tech stack includes javascript、css、html、vue、linux、shell、nodejs、nginx、git、jekyll and now is expanding mongodb、redis、ts、rust、docker
+👁 My focus topics are automation、website make、front-end engineering、performance optimization、network、security
 
-👁 My focus topics are automation、website make、performance optimization、network、security、devops（build、deploy、operations)
+💪🏼 My tech stack includes javascript、css、html、vue、linux、shell、nodejs、nginx、git、jekyll and now is expanding ts、rust、docker、mongodb、redis
 
-🧛🏻‍♂️ My terminal and editor are zsh、vscode、vim, with a Dracula theme
+🧛🏻‍♂️ My terminal are zsh、vscode、vim, with a Dracula theme
 
 ## Life Stuff
 
-🦁 What I like:
+### Share with my family and friends:
 
-_Share with my family and friends:_
+🥘 Cooking Party
 
-🤝 Competitive games: Badminton、Texas hold 'em
+🍵 Tea Talk
 
-🥘 Cooking
+🤝 Competitive games: Badminton、Texas hold 'em、Wesnoth
 
-🐱 Playing with my cat (named uu ball)
-
-_By myself:_
+### By myself:
 
 📖 Reading
 
-🏃🏻 Running
+🏃🏻 Running outside，fitness at home
 
-🎶 Enjoy Music: kpop (GD ❤️‍🩹 BP)、soft classical
+🎶 Enjoy [Music](https://music.163.com/#/playlist?id=488286297)
+
+🐱 Care for my cat (named uu ball)
