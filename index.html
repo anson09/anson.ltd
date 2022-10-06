@@ -15,8 +15,10 @@ title: Web Home
 
   <body>
     <header>
-      <img src="./assets/images/light.svg" class="icon-light" />
-      <img src="./assets/images/dark.svg" class="icon-dark" />
+      <button class="theme-button" onclick="toggleTheme()">
+        <img src="./assets/images/light.svg" class="icon-light" />
+        <img src="./assets/images/dark.svg" class="icon-dark" />
+      </button>
     </header>
     <main>
       <img src="./assets/images/logo-256.png" alt="avatar" width="64" />
@@ -34,5 +36,32 @@ title: Web Home
         <span class="love">♥︎</span> by anson
       </p>
     </footer>
+
+    <script>
+      const mq = window.matchMedia("(prefers-color-scheme: dark)");
+      let isDark = false;
+
+      if (mq.matches) {
+        isDark = true;
+        updateTheme(isDark);
+      }
+
+      mq.addEventListener("change", (event) => {
+        isDark = event.matches ? true : false;
+        console.log(event);
+        updateTheme(isDark);
+      });
+
+      function toggleTheme() {
+        isDark = !isDark;
+        updateTheme(isDark);
+      }
+
+      function updateTheme(theme) {
+        isDark
+          ? document.body.classList.add("dark")
+          : document.body.classList.remove("dark");
+      }
+    </script>
   </body>
 </html>

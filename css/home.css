@@ -3,32 +3,26 @@
   src: url("../assets/fonts/Minecraft.woff") format("woff");
 }
 
-:root {
+body {
   --bg: white;
   --text: hsl(4deg 35% 43%);
 }
 
-@media (prefers-color-scheme: light) {
-  .icon-dark {
-    display: none;
-  }
+body.dark {
+  --bg: hsl(221deg 39% 11%);
+  --text: hsl(0deg 20% 80%);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: hsl(221deg 39% 11%);
-    --text: hsl(0deg 20% 80%);
-  }
+body:not(.dark) .icon-dark {
+  display: none;
+}
 
-  .icon-light {
-    display: none;
-  }
+body.dark .icon-light {
+  display: none;
+}
 
-  header,
-  footer,
-  footer a {
-    filter: invert(100%);
-  }
+body.dark :is(header, footer, footer a) {
+  filter: invert(100%);
 }
 
 body {
@@ -76,8 +70,11 @@ section {
   height: 60px;
 }
 
-.icon-light,
-.icon-dark {
+.theme-button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
   width: 36px;
   margin-right: 24px;
 }
