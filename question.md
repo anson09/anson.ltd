@@ -1,5 +1,6 @@
 ---
 noindex: true
+noheader: true
 ---
 
 # Question
