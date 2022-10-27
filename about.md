@@ -14,9 +14,9 @@ paper: true
 
 👁 My focus topics are automation、website make、front-end engineering、performance optimization、network、security
 
-💪🏼 My tech stack includes javascript、css、html、vue、linux、shell、nodejs、nginx、git、jekyll and now is expanding ts、rust、docker、mongodb、redis
+🦾 My tech stack includes javascript、css、html、vue、jekyll、linux、shell、nodejs、zx、git、nginx、npm and now is expanding ts、rust、docker、mongodb、redis
 
-🧛🏻‍♂️ My terminal are zsh、vscode、vim, with a Dracula theme
+🧛🏻‍♂️ My tools are vscode、vim (both with a dracula theme)、zsh、chrome devtool、charles
 
 ## Life Stuff
 
