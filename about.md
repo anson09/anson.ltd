@@ -12,11 +12,11 @@ paper: true
 
 🧪 There is my code playground link [codepen](https://codepen.io/anson09/pens/public) [stackblitz](https://stackblitz.com/@anson09)
 
-👁 My focus topics are automation、website make、front-end engineering、performance optimization、network、security
+👁 My focus topics are website make、front-end engineering、performance optimization、automation、network、security
 
-🦾 My tech stack includes javascript、css、html、vue、jekyll、linux、shell、nodejs、zx、git、nginx、npm and now is expanding ts、rust、docker、mongodb、redis
+🦾 My tech stack includes js、css、html、vue、jekyll、linux、shell、nodejs、zx、git、nginx、npm and now is expanding ts、rust、docker、mongodb、redis
 
-🧛🏻‍♂️ My tools are vscode、vim (both with a dracula theme)、zsh、chrome devtool、charles
+🧛🏻‍♂️ My tools are vscode、vim (both with a dracula theme)、chrome devtool
 
 ## Life Stuff
 
