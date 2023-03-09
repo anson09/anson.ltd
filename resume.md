@@ -5,7 +5,7 @@ noheader: true
 
 # 王岩松 - 简历
 
-`主页:` [https://anson.ltd](https://anson.ltd) `邮箱:` [hi@anson.ltd](mailto:hi@anson.ltd) `微信:` anson\_\_wechat
+`主页:` [https://anson.ltd](https://anson.ltd) `邮箱:` [wangyans@mail2.sysu.edu.cn](mailto:wangyans@mail2.sysu.edu.cn) `微信:` anson\_\_wechat
 
 ## 概要
 
