@@ -52,12 +52,25 @@ a {
   text-decoration: none;
   outline: none;
   color: var(--text);
-  transition: transform 0.2s ease-in-out;
 }
 
-a:focus,
-a:hover {
-  transform: scale(1.05);
+.underline {
+  position: relative;
+}
+
+.underline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 4px;
+  background-color: var(--text);
+  transition: width 0.3s ease-out;
+}
+
+.underline:hover::before {
+  width: 100%;
 }
 
 section {
@@ -78,6 +91,11 @@ section {
   cursor: pointer;
   width: 36px;
   margin-right: 24px;
+}
+
+footer {
+  font-size: 14px;
+  word-spacing: 6px;
 }
 
 .love {
@@ -106,5 +124,6 @@ section {
 
   footer {
     font-size: 12px;
+    word-spacing: 2px;
   }
 }
