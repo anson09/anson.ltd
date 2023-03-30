@@ -26,6 +26,7 @@ body.dark :is(header, footer, footer a) {
 }
 
 body {
+  margin: 0px;
   background-color: var(--bg);
   font-family: "Minecraft";
   -webkit-font-smoothing: antialiased;

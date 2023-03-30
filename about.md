@@ -8,7 +8,7 @@ paper: true
 
 ## Work Stuff
 
-🧙🏼 I'm in charge of making a SaaS [website](https://www.ricequant.com) and I am proud of it
+🧙🏼 I'm in charge of making a SaaS [website](https://www.ricequant.com/welcome/) and I am proud of it
 
 🧪 There is my code playground link [codepen](https://codepen.io/anson09/pens/public) [stackblitz](https://stackblitz.com/@anson09)
 

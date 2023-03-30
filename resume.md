@@ -5,7 +5,7 @@ noheader: true
 
 # 王岩松 - 简历
 
-`主页:` [https://anson.ltd](https://anson.ltd) `邮箱:` [wangyans@mail2.sysu.edu.cn](mailto:wangyans@mail2.sysu.edu.cn) `微信:` anson\_\_wechat
+`主页:` [https://anson.ltd](https://www.anson.ltd) `邮箱:` [wangyans@mail2.sysu.edu.cn](mailto:wangyans@mail2.sysu.edu.cn) `微信:` anson\_\_wechat
 
 ## 概要
 
@@ -21,7 +21,7 @@ noheader: true
 
 - 架构工作
 
-  - 建立一套 SaaS 系统 [www.ricequant.com](https://www.ricequant.com)，兼容 IE 至 2021 年底, 支持亮暗主题，支持 web 移动端及小程序
+  - 建立一套 SaaS 系统 [www.ricequant.com](https://www.ricequant.com/welcome/)，兼容 IE 至 2021 年底, 支持亮暗主题，支持 web 移动端及小程序
   - 建立产品帮助文档平台，支持全文档模糊搜索
   - 重构巨型单体应用，按业务线拆分为 Mutiple SPA，挂载在同一域名下通过一级 PATH 区分，渐进式替换升级
   - 建立脚手架，涵盖项目骨架、开发规范、构建部署配置、第三方基础库等，用于支撑新项目快速启动
