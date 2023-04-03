@@ -14,9 +14,9 @@ paper: true
 
 👁 My focus topics are website make、front-end engineering、performance optimization、automation、network、security、algorithm
 
-🦾 My tech stack includes js、css、html、vue、jekyll、linux、shell、nodejs、zx、git、nginx、npm and now is expanding ts、rust、docker
+🦾 My tech stack includes `es6`、`css`、`html`、`vue`、`bash`、`nodejs`、`nginx` and now is expanding `ts`、`rust`、`docker`
 
-🧛🏻‍♂️ My tools are vscode、vim (both with a dracula theme)、chrome devtool
+🧛🏻‍♂️ My tools are vscode(dracula theme)、chrome devtool
 
 ## Life Stuff
 
@@ -33,7 +33,5 @@ paper: true
 📖 Reading
 
 🏃🏻 Running outside，fitness at home
-
-🎶 Enjoy [Music](https://music.163.com/#/playlist?id=488286297)
 
 🐱 Care for my cat (named uu ball)

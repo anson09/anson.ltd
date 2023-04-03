@@ -5,13 +5,19 @@ noheader: true
 
 # 王岩松 - 简历
 
-`主页:` [https://anson.ltd](https://www.anson.ltd) `邮箱:` [wangyans@mail2.sysu.edu.cn](mailto:wangyans@mail2.sysu.edu.cn) `微信:` anson\_\_wechat
+`主页:` [https://www.anson.ltd](https://www.anson.ltd) `邮箱:` [wangyans@mail2.sysu.edu.cn](mailto:wangyans@mail2.sysu.edu.cn) `手机:` 15889969094
 
 ## 概要
 
-- 具备 8+ 年开发经验，精通 web 前端，熟悉后端、运维、项目管理
-- 具备 3+ 年管理经验，管理过 10+ 人团队，能快速从 0 到 1 搭建前端团队
-- 能提前发现问题，乐于探索问题的本质和最佳解决方案，擅长简化问题以及使用新技术给团队提效
+- 具备 8+ 年开发经验，精通 WEB 前端，熟悉后端、运维、项目管理
+- 具备 3+ 年管理经验，搭建 10+ 人前端团队
+- 擅长前端工程化、性能优化
+
+## 技术栈
+
+- `es6`、`css`、`html`、`vue`、`highcharts`、`jekyll`、`electron`、`mini-program`
+- `git`、`chrome devtool`、`charles`、`parcel`、`eslint`、`npm`、`pm2`、`vim`
+- `nginx`、`linux`、`nodejs`、`bash`、`zx`
 
 ## 工作经历
 
@@ -19,59 +25,51 @@ noheader: true
 
 **前端负责人** _2019.3 ~ 至今_
 
-- 架构工作
+- 研发相关
 
-  - 建立一套 SaaS 系统 [www.ricequant.com](https://www.ricequant.com/welcome/)，兼容 IE 至 2021 年底, 支持亮暗主题，支持 web 移动端及小程序
+  - 建立一套 SaaS 业务系统 [www.ricequant.com](https://www.ricequant.com/welcome/)，支撑数十万用户的投资策略分析研究
+  - 兼容 IE 至 2021 年底, 支持主题切换，支持 H5 及小程序
   - 建立产品帮助文档平台，支持全文档模糊搜索
-  - 重构巨型单体应用，按业务线拆分为 Mutiple SPA，挂载在同一域名下通过一级 PATH 区分，渐进式替换升级
   - 建立脚手架，涵盖项目骨架、开发规范、构建部署配置、第三方基础库等，用于支撑新项目快速启动
-  - 建立主题库，用以支撑统一的视觉规范，以及设计师快速定制主题
-  - 建立组件库，为各业务子系统提供公用组件，零第三方 UI 依赖
-  - 制定安全策略包括 CSP、Cookie 安全属性、HTTP 安全头、防盗链、IP 黑白名单、流量限制、源码混淆等
-  - 优化网站性能包括优化 css、优化渲染流程、降低计算复杂度、处理内存泄漏、拆包、缓存、压缩、升级工具等
-
-- Infra 工作
-
-  - 建立 ST/UAT 规范和测试环境，并与 git 流程集成，将测试环境的配置和服务器与后端隔离
-  - 建立 CI/CD 流程，代码提交时会进行代码规范/语法/提交信息检查，在合并进 dev/main/release 后自动触发构建和部署 job
-  - 建立线上监控、A/B test 环境
-  - 迁移全站到 HTTP2、HTTPS、CDN
-  - 静态资源部署前校验完整性，支持版本 tag 回滚, 根据 commit message 自动生成版本日志
-  - 流量入口使用 CLB，NG 异地双活，静态资源挂载云盘，以避免单点故障
-  - 优化 SEO、CDN 和网关配置
-
-- 规范建立
-
-  - 制定团队开发规范，包括代码规范、git 流程规范、 npm 版本发布规范、iconfont 使用规范等
-  - 推行 CR 与 repo owner 制度，git push 权限接入 PR 流程
-  - 统一技术栈，渐进式收敛多种技术方案的历史尝试
-  - 协助 PM 推行敏捷开发流程，使用看板透明化管理任务
-
-- 团队管理
-
-  - 编写笔试面试题，从 0 到 1 搭建团队
-  - 培养骨干与面试官，完成梯度建设
-  - 分享技术，调节团队氛围
-  - 定期归档整理 case、doc、repo、job、service、config，降低使用复杂度
+  - 建立组件库，为各业务子系统提供公用业务组件，零第三方 UI 依赖
+  - 重构巨型单体应用，按业务线拆分为 Mutiple SPA，挂载在同一域名下通过一级 PATH 区分，渐进式替换升级
+  - 制定安全策略包括 CSP、Cookie 安全、API 调取安全、URL 跳转漏洞、点击劫持、防盗链、IP 黑名单、流量限制、源码混淆等
+  - 优化网站性能包括重排重绘、资源优先级、虚拟滚动、瓶颈逻辑、内存泄漏、图片格式、懒加载、拆包、缓存、压缩等
   - 解决团队研发过程中遇到的疑难杂症
 
-- ☆ 掌握 nodejs、npm、pm2、zx、charles、chrome devtool（性能分析）、jekyll、小程序
+- 基建相关
+
+  - 建立 ST/UAT 规范和测试环境，并将测试环境的配置和服务器与后端分离
+  - 建立 CI/CD 流程，代码提交时会进行代码规范/语法/提交信息检查，合并进 dev/main/release 后自动触发构建和部署 JOB
+  - 迁移全站到 HTTP2、HTTPS、CDN
+  - 流量入口使用 CLB，NG 异地双活，静态资源挂载云盘，以避免单点故障
+  - 优化 SEO、CDN、NGINX 配置
+  - 建立线上监控、A/B TEST 环境
+
+- 规范相关
+
+  - 制定开发规范，涵盖代码规范、`commit` 规范、`git` 流程、`npm` 发版等
+  - 推行 PR、CR 及 REPO OWNER 制度
+  - 推动文档、关键代码注释沉淀
+
+- 团队相关
+
+  - 编写笔试面试题，培养骨干与面试官，组建团队并完成梯度建设
+  - 结合业务发展调研新技术，技术分享，建立技术氛围
 
 **前端工程师** _2016.12 ~ 2019.3_
 
-- 负责投资组合绩效分析系统 web 前端开发
+- 负责投资组合绩效分析系统 WEB 前端开发
 - 参与公司网站、客户端、基础设施的开发
-- 推动 web 技术栈升级，将所负责的项目从单体应用剥离，前端框架 pjax、jquery 切换 vue spa，构建方案 gulp 切换 parcel
-- ☆ 掌握 vue、nginx、git、vim、highcharts、electron、build、lint
+- 推动技术栈升级，将所负责的项目从单体应用拆分，前端框架 `pjax`、`jquery` 切换 `vue`，构建方案 `gulp` 切换 `parcel`
 
 ### 第一创业证券
 
 **工程师** _2014.6 ~ 2016.9_
 
 - 负责公司期权交易与行情系统客户端、移动端从 0 到 1 建设，PM 角色
-- 负责 web 版本期权行情与模拟组合交易系统迭代开发，全栈角色
+- 负责 WEB 版本期权行情与模拟组合交易系统迭代开发，全栈角色
 - 起草公司信息技术中心、清算托管部、经济业务部与深交所期权业务联调方案
-- ☆ 掌握 js、css、html、python、linux、shell
 
 **实习生** _2013.12 ~ 2014.6_
 
