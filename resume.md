@@ -15,9 +15,11 @@ noheader: true
 
 ## 技术栈
 
-- `es6`、`css`、`html`、`vue`、`highcharts`、`jekyll`、`electron`、`mini-program`
-- `git`、`chrome devtool`、`charles`、`parcel`、`eslint`、`npm`、`pm2`、`vim`
-- `nginx`、`linux`、`nodejs`、`bash`、`zx`
+- 前端: `es6` `css` `html` `jquery` `vue` `highcharts` `element` `jekyll` `electron`
+- 后端: `linux` `nginx` `nodejs` `bash` `zx` `pm2`
+- 工具: `git` `npm` `vscode` `vim` `chrome devtool` `charles` `vconsole`
+- 构建: `parcel` `rollup` `babel` `postcss` `swc` `lightingcss`
+- 规范: `eslint` `stylelint` `commitlint` `prettier` `husky` `lint-staged`
 
 ## 工作经历
 
