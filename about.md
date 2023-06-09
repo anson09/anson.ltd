@@ -14,7 +14,7 @@ paper: true
 
 👁 My focus topics are website make、front-end engineering、performance optimization、automation、network、security、algorithm
 
-🦾 My tech stack includes `es6`、`css`、`html`、`vue`、`bash`、`nodejs`、`nginx` and now is expanding `ts`、`rust`、`docker`
+🦾 My tech stack includes `es6`、`ts`、`css`、`html`、`vue`、`bash`、`nodejs`、`nginx` and now is expanding `react`、`docker`
 
 🧛🏻‍♂️ My tools are vscode(dracula theme)、chrome devtool
 
