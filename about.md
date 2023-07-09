@@ -8,13 +8,13 @@ paper: true
 
 ## Work Stuff
 
-🧙🏼 I'm in charge of making a SaaS [website](https://www.ricequant.com/welcome/) and I am proud of it
+🧙🏼 I'm previously in charge of making a SaaS [website](https://www.ricequant.com/welcome/) and I am proud of it
 
 🧪 There is my code playground link [codepen](https://codepen.io/anson09/pens/public) [stackblitz](https://stackblitz.com/@anson09)
 
 👁 My focus topics are website make、front-end engineering、performance optimization、automation、network、security、algorithm
 
-🦾 My tech stack includes `es6`、`ts`、`css`、`html`、`vue`、`bash`、`nodejs`、`nginx` and now is expanding `react`、`docker`
+🦾 My tech stack includes `es6`、`ts`、`css`、`html`、`vue`、`bash`、`nodejs`、`nginx` and now is expanding `sql`、`docker`
 
 🧛🏻‍♂️ My tools are vscode(dracula theme)、chrome devtool
 
@@ -26,12 +26,18 @@ paper: true
 
 🍵 Tea Talk
 
-🤝 Competitive games: Badminton、Texas hold 'em、Wesnoth
+♠ Texas hold 'em
+
+🏸 Badminton
+
+🏊🏻‍♂️ Swimming
+
+🐱 Care for my cat (named uu ball)
 
 ### By myself:
 
 📖 Reading
 
-🏃🏻 Running outside，fitness at home
+🏃🏻 Running outside
 
-🐱 Care for my cat (named uu ball)
+🧘🏻 Fitness at home
