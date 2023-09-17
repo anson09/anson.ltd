@@ -176,4 +176,4 @@ foo();
 ## ViewPoint
 
 - 投资/不投资 币圈的理由
-- 对 serverless 低代码 元宇宙 等新技术名词怎么看
+- 对 serverless 低代码 webcontainer 等新技术怎么看
