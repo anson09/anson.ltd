@@ -17,36 +17,6 @@ noheader: true
   - 简述 Margin Collapse 逻辑
 - 简述 Stacking Context 和其应用
 - 简述 Compositing Layer 和其应用
-- 画出以下颜色块和数字的排列
-
-```html
-<body>
-  <div class="div1">1</div>
-  <div class="div2">2</div>
-  <div class="div3">3</div>
-</body>
-<style>
-  div {
-    width: 100px;
-    height: 100px;
-    font-size: 50px;
-  }
-  .div1 {
-    float: left;
-    background-color: red;
-  }
-  .div2 {
-    color: yellow;
-    background-color: green;
-  }
-  .div3 {
-    color: white;
-    float: left;
-    background-color: blue;
-  }
-</style>
-```
-
 - css 加载会阻塞 dom 的解析、渲染（2 steps）吗，为什么
 - css 加载会阻塞 js（none,defer,async）的加载、执行（2 steps）吗，为什么
 
@@ -68,29 +38,6 @@ var o = {
 };
 o.getFoundYear.bind({ age: 5 })();
 o.getBaseColor.call({ color: "blue" });
-```
-
-- 请写出以下输出结果，并说明为什么
-
-```js
-console.log(1);
-
-setTimeout(() => {
-  console.log("setTimeout");
-}, 0);
-
-let promise = new Promise((resolve) => {
-  console.log(3);
-  resolve();
-})
-  .then((data) => {
-    console.log(100);
-  })
-  .then((data) => {
-    console.log(200);
-  });
-
-console.log(2);
 ```
 
 - 请写出以下输出结果，并说明为什么
@@ -125,11 +72,12 @@ new new Foo().getName();
 ```
 
 - encodeURI 和 encodeURIComponent 区别
+- 怎么理解 ArrayBuffer，出现用来解决什么问题
 
 ## Browser
 
-- 服务端收到一个请求，但拿不到 cookie，可能是哪些原因
 - 两个独立打开的不同源 tab 之间通讯的纯前端方案
+- 滚动懒加载的实现
 
 ## Nodejs
 
@@ -160,14 +108,16 @@ foo();
 - 中间人攻击流程
   - _follow up_
   - 客户端/服务端怎么抓包
+  - https 请求域名会暴露吗
 - keep alive 和 http2 中多路复用的区别
 
 ## Build
 
-- 聊聊 js 和 css 的浏览器向下兼容方案
 - vue scoped css 是怎么实现的
 - spa 架构下有哪些方法优化首屏速度
-- 副作用优化方案
+- 介绍下 Tree Shaking 和 Scope Hoisting
+  - _follow up_
+  - 副作用怎么优化
 
 ## Security
 
@@ -175,5 +125,7 @@ foo();
 
 ## ViewPoint
 
-- 投资/不投资 币圈的理由
-- 对 serverless 低代码 webcontainer 等新技术怎么看
+- 帮助特别大的学习资料
+- 最近在学习什么
+- 沟通协作方面最难的经历，有什么反思
+- 介绍下做的最成功的项目，如果可以再做一次会怎么做的更好
