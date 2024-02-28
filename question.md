@@ -102,6 +102,7 @@ foo();
 - 进程几种创建方式的区别与联系
   - _follow up_
   - 进程间通信方式
+- 服务变更对上下游影响的管理方案
 
 ## Network
 
@@ -122,7 +123,9 @@ foo();
 ## Security
 
 - 阻止 api 被机器人调用
-- 双 token 机制的意义
+- 介绍下常用鉴权方式
+  - _follow up_
+  - 双 token 机制的意义
 
 ## ViewPoint
 
